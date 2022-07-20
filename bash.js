@@ -36,3 +36,22 @@ process.stdin.on('data', (data) => {
  * 
  * 
  */
+
+/**
+ * steps to separate your code into different files
+ * 1. put your code inside a function
+ * 2. make a new file called cat.js
+ * 3. require fs inside this file
+ * 4. paste your function in here
+ * 5. module.exports = { the function }
+ * 
+ */
+
+/**
+ * steps to delete node_modules from your repo
+ * 1. make a new file called .gitignore
+ * 2. put node_modules in there 
+ * 3. rm -rf node_modules
+ * 4. git add . && git commit -m "removed node_modules" && git push
+ * 
+ */
