@@ -1,16 +1,25 @@
 {
   "name": "nodeshell",
   "version": "1.0.0",
-  "description": "",
   "main": "bash.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon bash.js"
+    "start": "nodemon bash.js",
+    "ethan": "echo 'hello'"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "nodemon": "^2.0.19"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stannie-Lim/bash.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Stannie-Lim/bash/issues"
+  },
+  "homepage": "https://github.com/Stannie-Lim/bash#readme",
+  "description": ""
 }

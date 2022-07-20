@@ -55,3 +55,13 @@ process.stdin.on('data', (data) => {
  * 4. git add . && git commit -m "removed node_modules" && git push
  * 
  */
+
+/**
+ * 
+ * steps to add nodemon
+ * 1. npm init -y
+ * 2. npm i nodemon
+ * 3. add "start": "nodemon <your app.js>" in the "scripts" section of your package.json
+ * 4. npm run start
+ * 
+ */
